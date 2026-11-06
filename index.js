@@ -14,7 +14,12 @@ const content = {
   contactName: "Petr Kozelka",
   contactEmail: "pkozelka@gmail.com",
   contactPhone: "+420 603 448 262",
-  orderNote: "Pro orientaci: naše čtyřčlenná rodina spotřebuje za rok většinou víc než 10 litrů."
+  orderNote: "Pro orientaci: naše čtyřčlenná rodina spotřebuje za rok většinou víc než 10 litrů.",
+  harvestPhotos: [
+    { src: "assets/harvest/olive-grove.jpg", alt: "Olivovníky na svahu nad toskánskou krajinou, pod stromy jsou rozprostřené sklizňové sítě.", caption: "Olivový háj v Chianti" },
+    { src: "assets/harvest/harvest-by-hand.jpg", alt: "Sběrač sklízí olivy dlouhým nástrojem z větví olivovníku.", caption: "Sklizeň ručně, strom po stromu" },
+    { src: "assets/harvest/olives-at-mill.jpg", alt: "Čerstvě sklizené olivy v přepravní bedně v lisovně.", caption: "Čerstvá úroda míří do lisovny" }
+  ]
 };
 
 document.querySelectorAll("[data-content]").forEach((element) => {
@@ -27,3 +32,13 @@ document.querySelectorAll("[data-content]").forEach((element) => {
 document.querySelectorAll("[data-contact-email]").forEach((link) => {
   link.href = `mailto:${content.contactEmail}`;
 });
+
+const gallery = document.querySelector("[data-harvest-gallery]");
+if (gallery) {
+  gallery.innerHTML = content.harvestPhotos.map((photo) => `
+    <figure class="harvest-photo">
+      <img src="${photo.src}" alt="${photo.alt}" loading="lazy">
+      <figcaption>${photo.caption}</figcaption>
+    </figure>
+  `).join("");
+}
