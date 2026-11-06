@@ -85,3 +85,8 @@ footer { min-height: 88px; color: #797a6d; font-size: 11px; } footer .wordmark {
   .harvest-photo { height: 250px; }
   .album-link { grid-column: 1; justify-self: start; }
 }
+.contact-actions { display: flex; justify-content: center; align-items: center; gap: 20px; }
+.email-link { color: #e0ddcf; font-size: 12px; text-decoration: underline; text-underline-offset: 4px; }
+.price-card { border-left-color: #c4c1b2; }
+.price-card .taste-icon { font-family: 'DM Sans', sans-serif; }
+@media (max-width: 760px) { .contact-actions { flex-direction: column; gap: 16px; } }
