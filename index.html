@@ -1,3 +1,72 @@
-<h1>Olej</h1>
-
-<p>Under construction</p>
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3e9">
+  <meta name="description" content="Čerstvý extra panenský olivový olej z oblasti Chianti v Toskánsku.">
+  <title>Olio Nuovo — olivový olej z Toskánska</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#domu" aria-label="Olio Nuovo — úvod"><span class="wordmark-mark">O</span>lio Nuovo</a>
+    <nav aria-label="Hlavní navigace">
+      <a href="#pribeh">Náš příběh</a>
+      <a href="#olej">O oleji</a>
+      <a href="#kontakt">Objednat</a>
+    </nav>
+  </header>
+  <main id="domu">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow" data-content="heroEyebrow"></p>
+        <h1 id="hero-title" data-content="heroTitle"></h1>
+        <p class="hero-lead" data-content="heroLead"></p>
+        <a class="button" href="#kontakt">Zjistit více <span aria-hidden="true">↗</span></a>
+        <p class="hero-note"><span class="olive-dot"></span> Sklizeň · Toskánsko · Chianti</p>
+      </div>
+      <div class="hero-art" aria-label="Ilustrace lahve Olio Nuovo" role="img">
+        <div class="sun"></div>
+        <div class="branch branch-one"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="bottle"><div class="bottle-neck"></div><div class="bottle-cap"></div><div class="bottle-label"><span>OLIO</span><strong>NUOVO</strong><small>CHIANTE<br>• TOSCANA •</small></div></div>
+        <div class="branch branch-two"><i></i><i></i><i></i><i></i></div>
+        <span class="art-caption">un filo di Toscana</span>
+      </div>
+    </section>
+    <section class="story section-wrap" id="pribeh">
+      <div class="section-label"><span>01</span> <span data-content="storyKicker"></span></div>
+      <div class="story-copy">
+        <h2 data-content="storyTitle"></h2>
+        <div data-content="storyBody"></div>
+        <p class="location"><span aria-hidden="true">⌖</span> <span data-content="location"></span></p>
+      </div>
+      <div class="story-stamp" aria-hidden="true"><span>Fatto con<br>cura in</span><strong>Italia</strong><span>♡</span></div>
+    </section>
+    <section class="tasting" id="olej">
+      <div class="section-wrap tasting-inner">
+        <div class="section-label"><span>02</span> OLEJ</div>
+        <div><p class="eyebrow">Čerstvost, kterou poznáte</p><h2 data-content="tastingTitle"></h2><p data-content="tastingBody"></p></div>
+        <div class="taste-card"><span class="taste-icon" aria-hidden="true">✳</span><strong>Extra panenský</strong><span>Z Toskánska, z konce sklizně</span></div>
+      </div>
+    </section>
+    <section class="harvest section-wrap">
+      <div class="section-label"><span>03</span> SKLIZEŇ</div>
+      <div><p class="eyebrow">Začíná to v olivovém háji</p><h2>Olej s příběhem<br>každé sklizně.</h2><p>Olej vozíme čerstvý, přímo z místa, ke kterému se rádi vracíme.</p></div>
+      <div class="harvest-art" aria-hidden="true"><span>CHIANTI</span><div class="hill hill-back"></div><div class="hill hill-front"></div><i class="tree tree-a"></i><i class="tree tree-b"></i><i class="tree tree-c"></i></div>
+    </section>
+    <section class="contact" id="kontakt">
+      <div class="contact-inner">
+        <p class="eyebrow">Máte chuť na Toskánsko?</p>
+        <h2 data-content="contactTitle"></h2>
+        <p data-content="contactIntro"></p>
+        <a class="button button-light" data-contact-email href="mailto:pkozelka@gmail.com">Napsat e-mail <span aria-hidden="true">↗</span></a>
+        <div class="contact-meta"><span data-content="contactName"></span><span data-content="contactEmail"></span><span data-content="contactPhone"></span></div>
+        <p class="order-note" data-content="orderNote"></p>
+      </div>
+    </section>
+  </main>
+  <footer><a class="wordmark" href="#domu"><span class="wordmark-mark">O</span>lio Nuovo</a><span>Čerstvá chuť Toskánska.</span><a href="#domu">Zpět nahoru ↑</a></footer>
+</body>
+</html>
