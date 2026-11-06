@@ -19,7 +19,7 @@ Olej který vozíme pochází z Toskánska, oblast Chianti - kde leží i jedno 
 
 TODO fotogalerie
 
-## Kontakt
+## Kontakt a objednání
 
 Pokud chcete dovézt nějaký olej, napište mi na email nebo raději přes WhatsApp:
 
@@ -29,3 +29,6 @@ tel./WhatsApp: +420 603 448 262
 
 Uveďte množství, nejlepší je balení po 3 nebo 5 litrech, ale pokud chcete jen 1 nebo 2, můžeme to přelít, ideálně do vašich vlastních lahviček.
 Jen pro orientaci, naše čtyřčlenná rodina si na rok většinou nevystačí s 10L. 
+
+Cena za olej z roku 2026 je 22 EUR/litr, zahrnuje olej, jeho balení, a dopravu.
+Každý rok vytváříme WhatsApp skupinu kde uvedeme aktuální cenu, jakmile ji zjistíme od zdroje.
