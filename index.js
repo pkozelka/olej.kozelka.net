@@ -3,6 +3,8 @@ const content = {
   heroEyebrow: "Z Toskánska s láskou",
   heroTitle: "Kousek Itálie\nna váš stůl.",
   heroLead: "Čerstvý extra panenský olivový olej z kopců Chianti. Vozíme ho pro sebe, rodinu a přátele — a rádi přivezeme i vám.",
+  heroPhotoCaption: "Sklizeň v olivovém háji · Chianti",
+  heroPhotoAlt: "Sběrači sklízejí olivy pod stromy na svahu v Chianti.",
   storyKicker: "NÁŠ PŘÍBĚH",
   storyTitle: "Do Itálie se rádi vracíme. Pro olej taky.",
   storyBody: "<p>Každý rok jezdíme do Itálie na dovolenou. Milujeme moře, ale ještě o něco víc její vnitrozemí — jídlo, víno, grappu a také olivový olej.</p><p>Postupně jsme poznali lidi, kteří se výrobě oleje věnují. Začali jsme ho vozit domů nejdřív pro sebe a rodinu, později také pro přátele a známé.</p>",
@@ -23,6 +25,9 @@ const content = {
     { src: "assets/harvest/olives-at-mill.jpg", alt: "Čerstvě sklizené olivy v přepravní bedně v lisovně.", caption: "Čerstvá úroda míří do lisovny" }
   ]
 };
+
+const heroImage = document.querySelector("[data-hero-image]");
+if (heroImage) heroImage.alt = content.heroPhotoAlt;
 
 document.querySelectorAll("[data-content]").forEach((element) => {
   const key = element.dataset.content;
